@@ -8,7 +8,7 @@ python python_script.py > liveHosts
 # Port Scan
 # Port 21-FTP, Port 25-SMTP, Port 1433-MS SQL Server
 nmap -n --open -p21,25,1433 -iL liveHosts -oN portList
-
+python PortParser.py > parsedPorts
 
 
 
