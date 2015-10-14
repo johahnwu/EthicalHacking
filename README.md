@@ -1,4 +1,4 @@
 This is our project.  
-The main script is cript.sh  
-Run with ./script.sh  
+The main file is Script.sh  
+Run with ./Script.sh  
 Program will prompt user for address range  
