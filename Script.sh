@@ -5,7 +5,7 @@
 
 
 # Port Scan
-nmap -n --open -p21,25,1433 -iL upHostFile 
+nmap -n --open -p21,25,1433 -iL TestFile -oN portList
 
 
 
