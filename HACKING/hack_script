@@ -1,6 +1,0 @@
-#!/bin/bash
-
-read -p "What range of addresses do you want to scan? " range
-echo Scanning $range
-nmap $range > nmapOutput
-python python_script.py > liveHosts
