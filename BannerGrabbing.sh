@@ -13,6 +13,7 @@ do
         line=($p)
         ip=${line[0]}
         port=${line[1]}
+        nmap -sV $ip -p$port -oX $ip':'$port
         nmap -sV $ip -p$port >> $output
 done < $filename
 sed -i '/Starting Nmap/d' ./Step3Result.txt
