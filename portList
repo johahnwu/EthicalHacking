@@ -1,0 +1,8 @@
+# Nmap 6.49BETA4 scan initiated Wed Oct 14 17:20:45 2015 as: nmap -n --open -p21,25,1433 -iL liveHosts -oN portList
+Nmap scan report for 10.202.208.5
+Host is up (0.019s latency).
+Not shown: 2 closed ports
+PORT   STATE SERVICE
+25/tcp open  smtp
+
+# Nmap done at Wed Oct 14 17:20:48 2015 -- 9 IP addresses (8 hosts up) scanned in 2.82 seconds

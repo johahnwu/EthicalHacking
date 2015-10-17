@@ -1,7 +1,7 @@
 
-Starting Nmap 6.49BETA4 ( https://nmap.org ) at 2015-10-14 17:13 CDT
+Starting Nmap 6.49BETA4 ( https://nmap.org ) at 2015-10-14 17:20 CDT
 Nmap scan report for router.asus.com (10.202.208.1)
-Host is up (0.014s latency).
+Host is up (0.022s latency).
 Not shown: 995 closed ports
 PORT     STATE SERVICE
 53/tcp   open  domain
@@ -11,7 +11,7 @@ PORT     STATE SERVICE
 8200/tcp open  trivnet1
 
 Nmap scan report for 10.202.208.2
-Host is up (0.019s latency).
+Host is up (0.0023s latency).
 Not shown: 992 closed ports
 PORT     STATE SERVICE
 22/tcp   open  ssh
@@ -24,7 +24,7 @@ PORT     STATE SERVICE
 8300/tcp open  tmi
 
 Nmap scan report for ubuntu (10.202.208.4)
-Host is up (0.028s latency).
+Host is up (0.019s latency).
 Not shown: 994 closed ports
 PORT     STATE SERVICE
 22/tcp   open  ssh
@@ -35,7 +35,7 @@ PORT     STATE SERVICE
 8080/tcp open  http-proxy
 
 Nmap scan report for 10.202.208.5
-Host is up (0.054s latency).
+Host is up (0.021s latency).
 Not shown: 994 closed ports
 PORT    STATE SERVICE
 22/tcp  open  ssh
@@ -46,7 +46,7 @@ PORT    STATE SERVICE
 995/tcp open  pop3s
 
 Nmap scan report for 10.202.208.11
-Host is up (0.045s latency).
+Host is up (0.019s latency).
 Not shown: 980 closed ports
 PORT      STATE SERVICE
 53/tcp    open  domain
@@ -70,4 +70,32 @@ PORT      STATE SERVICE
 49161/tcp open  unknown
 49165/tcp open  unknown
 
-Nmap done: 25 IP addresses (5 hosts up) scanned in 21.02 seconds
+Nmap scan report for kali (10.202.208.68)
+Host is up (0.026s latency).
+All 1000 scanned ports on kali (10.202.208.68) are closed
+
+Nmap scan report for vbank (10.202.208.84)
+Host is up (0.0099s latency).
+Not shown: 989 closed ports
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+53/tcp   filtered domain
+80/tcp   filtered http
+135/tcp  filtered msrpc
+143/tcp  filtered imap
+443/tcp  filtered https
+554/tcp  filtered rtsp
+587/tcp  filtered submission
+995/tcp  filtered pop3s
+5000/tcp open     upnp
+8080/tcp filtered http-proxy
+
+Nmap scan report for Drews-Air (10.202.208.157)
+Host is up (0.00022s latency).
+All 1000 scanned ports on Drews-Air (10.202.208.157) are closed
+
+Nmap scan report for users-MBP (10.202.208.172)
+Host is up (0.010s latency).
+All 1000 scanned ports on users-MBP (10.202.208.172) are closed
+
+Nmap done: 255 IP addresses (9 hosts up) scanned in 25.09 seconds
