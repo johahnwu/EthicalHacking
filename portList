@@ -1,21 +1,9 @@
-# Nmap 6.49BETA4 scan initiated Wed Oct 14 18:39:24 2015 as: nmap -n --open -p22,25,1433 -iL TestFile -oN portList
-Nmap scan report for 10.202.208.2
-Host is up (0.44s latency).
-Not shown: 2 closed ports
-PORT   STATE SERVICE
-22/tcp open  ssh
 
-Nmap scan report for 10.202.208.4
-Host is up (0.27s latency).
-Not shown: 2 closed ports
-PORT   STATE SERVICE
-22/tcp open  ssh
-
+Starting Nmap 6.49BETA4 ( https://nmap.org ) at 2015-10-17 16:03 CDT
 Nmap scan report for 10.202.208.5
-Host is up (0.15s latency).
-Not shown: 1 closed port
+Host is up (0.012s latency).
+Not shown: 2 closed ports
 PORT   STATE SERVICE
-22/tcp open  ssh
 25/tcp open  smtp
 
-# Nmap done at Wed Oct 14 18:39:31 2015 -- 7 IP addresses (7 hosts up) scanned in 7.11 seconds
+Nmap done: 5 IP addresses (5 hosts up) scanned in 0.11 seconds
