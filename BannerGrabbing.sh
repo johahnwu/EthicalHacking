@@ -8,12 +8,20 @@ rm $output
 fi
 
 filename='PortScan.txt'
+xmlfilename='cpeResult.txt'
+
+if [ -f $xmlfilename ]; then
+rm $xmlfilename
+fi
+
 while read p;
 do
         line=($p)
         ip=${line[0]}
         port=${line[1]}
-        nmap -sV $ip -p$port -oX $ip':'$port
+        resultfile=$ip':'$port
+        nmap -sV $ip -p$port -oX $resultfile
+        python parseXML.py $resultfile >> $xmlfilename
         nmap -sV $ip -p$port >> $output
 done < $filename
 sed -i '/Starting Nmap/d' ./Step3Result.txt
