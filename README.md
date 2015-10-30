@@ -4,6 +4,6 @@ Run with ./Script.sh
 Program will prompt user for address range  
 
 #TODO  
-~~Make sure script works  
-~~Finish Paper  
+~~Make sure script works~~  
+~~Finish Paper~~  
 Do Presentation  
