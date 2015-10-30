@@ -1,0 +1,3 @@
+unzip vFeed-master.zip
+python vFeed-master/vfeedcli.py -u
+mv vFeed-master vFeed
