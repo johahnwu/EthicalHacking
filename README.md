@@ -12,4 +12,5 @@ Program will prompt user for address range
 ~~Finish Paper~~  
 ~~Do Presentation~~
 
-Presentation can be found at: https://goo.gl/kkFuer
+Presentation can be found [here](https://goo.gl/kkFuer)  
+Full Paper can be found [here](https://github.com/johahnwu/EthicalHacking/blob/master/EthicalHackingTool.pdf)
