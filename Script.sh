@@ -52,5 +52,7 @@ fi
 #python vFeed/vfeedcli.py -u
 while IFS='' read -r line || [[ -n "$line" ]]; do
 	#statements
-	python vFeed/vfeedcli.py -s $line >> $output
+        if [[ $line != "No Exploitable" ]]; then
+	       python vFeed/vfeedcli.py -s $line >> $output
+        fi
 done < $filename
