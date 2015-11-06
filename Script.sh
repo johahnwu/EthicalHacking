@@ -56,3 +56,5 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
 	       python vFeed/vfeedcli.py -s $line >> $output
         fi
 done < $filename
+
+rm 10*
